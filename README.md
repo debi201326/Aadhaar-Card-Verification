@@ -12,15 +12,19 @@ This project detects potential Aadhaar card fraud using deep learning, Optical C
 **Prerequisites**
 Python 3.6+
 Google Colab or similar Jupyter environment
-Packages:
-tensorflow
-opencv-python-headless
-easyocr
-face_recognition
+
+**Packages:**
+- tensorflow
+- opencv-python-headless
+- easyocr
+- face_recognition
 
 **Dataset Structure**
 Organize the dataset as follows:
-/content/drive/MyDrive/adhaar/
-├── real/       # Folder containing real Aadhaar card images
-└── fake/       # Folder containing fake Aadhaar card images
+
+- /content/drive/MyDrive/adhaar/
+
+- real/       # Folder containing real Aadhaar card images
+
+- fake/       # Folder containing fake Aadhaar card images
 
