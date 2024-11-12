@@ -4,13 +4,9 @@ This project detects potential Aadhaar card fraud using deep learning, Optical C
 
 **Features:**
 - Data Augmentation for Robust Model Training: Includes rotation, flipping, and scaling transformations to strengthen the model.
-  
 - Convolutional Neural Network (CNN) for classification: Trained to identify if an Aadhaar card is real or fake.
-- 
 - OCR using Tesseract and EasyOCR: Extracts text details like name, DOB, gender, and Aadhaar number from uploaded Aadhaar card images.
-- 
 - Face Verification with Face Recognition library: Compares the face on the Aadhaar card with a user-uploaded face photo.
-- 
 - Anomaly Detection: Identifies missing or incorrect fields on the Aadhaar card, such as name, DOB, gender, or Aadhaar number format.
 
 **Prerequisites**
