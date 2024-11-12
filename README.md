@@ -10,8 +10,8 @@ This project detects potential Aadhaar card fraud using deep learning, Optical C
 - Anomaly Detection: Identifies missing or incorrect fields on the Aadhaar card, such as name, DOB, gender, or Aadhaar number format.
 
 **Prerequisites**
-Python 3.6+
-Google Colab or similar Jupyter environment
+- Python 3.6+
+- Google Colab or similar Jupyter environment
 
 **Packages:**
 - tensorflow
@@ -20,7 +20,6 @@ Google Colab or similar Jupyter environment
 - face_recognition
 
 **Dataset Structure**
-Organize the dataset as follows:
 
 - /content/drive/MyDrive/adhaar/
 
